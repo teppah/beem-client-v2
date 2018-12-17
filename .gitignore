@@ -2,6 +2,7 @@
 # output
 target/
 
+
 ### IntelliJ IDEA ###
 .idea/
 *.iws
