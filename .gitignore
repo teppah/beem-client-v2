@@ -1,4 +1,12 @@
 *.class
+# output
+target/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
@@ -10,3 +18,12 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# compile crash logs
+.attach_pid*
+
+# logs
+*.log
+
+# exclude Spring boot maven wrapper
+!.mvn/wrapper/maven-wrapper.jar
