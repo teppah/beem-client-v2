@@ -1,0 +1,20 @@
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuItem?>
+<BorderPane xmlns:fx="http://javafx.com/"
+            fx:controller="com.yfy.beem.clientv2.ui.controller.MainController" >
+    <left>
+        <TableView fx:id="contactsTableView"/>
+    </left>
+    <top>
+        <MenuBar fx:id="mainMenuBar">
+            <Menu text="Menu">
+                <MenuItem text="Menu Item"/>
+            </Menu>
+        </MenuBar>
+    </top>
+</BorderPane>
