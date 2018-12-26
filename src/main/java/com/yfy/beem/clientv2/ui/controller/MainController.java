@@ -5,7 +5,9 @@ import javafx.scene.control.MenuBar;
 import javafx.scene.control.TableView;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Controller;
 
+@Controller
 public class MainController {
     private final Logger log = LoggerFactory.getLogger(MainController.class);
     @FXML
